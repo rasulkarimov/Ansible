@@ -1,0 +1,52 @@
+---
+- name: deploy and start httpd server
+  hosts: webservers
+  become: true
+  vars:
+    web_pkg: httpd
+    firewall_pkg: firewalld
+    web_service: httpd
+    firewall_service: firewalld
+    python_pkg: python
+    rule: http
+  tasks:
+    - name: install packeges
+      yum:
+        name:
+          - "{{ web_pkg }}"
+          - "{{ firewall_pkg }}"
+          - "{{ python_pkg }}"
+        state: latest
+
+    - name: ensure http started
+      service:
+        name: "{{ web_service }}"
+        state: started
+        enabled: true
+        
+    - name: ensure firewalld started
+      service:
+        name: "{{ firewall_service }}"
+        state: started
+        enabled: true
+
+    - name: set web content
+      copy:
+        content: "Using variables by Ansible is good"
+        dest: /var/www/html/index.html
+
+    - name: set firewall rules
+      firewalld:
+        service: "{{  rule  }}"
+        state: enabled
+        immediate: true
+        permanent: true
+        
+
+- name: verify httpd service
+  hosts: localhost
+  tasks:
+    - name: checking webserver aviability
+      uri:
+        url: http://192.168.200.8
+        status_code: 200

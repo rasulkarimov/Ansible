@@ -1,0 +1,40 @@
+---
+- name: enable intranet
+  hosts: webservers
+  become: yes
+  tasks:
+    - name: httpd ans firewalld presrnt
+      yum:
+        name:
+          - firewalld
+          - httpd
+        state: present
+
+    - name: set index.html file
+      copy:
+        content: "Welcome to test page, ansible is the best"
+        dest: /var/www/html/index.html
+
+    - name: ensure services state
+      service:
+        name: firewalld
+        state: started
+        enabled: true
+
+
+    - name: set firewall rules
+      firewalld:
+        service: http
+        permanent: true
+        state: enabled
+        immediate: yes       
+      
+- name: test intranet web server
+  hosts: localhost
+  become: no
+  tasks:
+    - name: checking http connect
+      uri:
+        url: http://192.168.200.8
+        return_content: yes
+        status_code: 200
