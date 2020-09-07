@@ -1,0 +1,10 @@
+---
+- name: using fetch to retive log files
+  hosts: webservers
+  become: true
+  tasks:
+    - name: fetching /var/log/secure from managed hosts
+      fetch:
+        src: /var/log/secure
+        dest: secure-backups
+        flat: no 

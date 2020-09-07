@@ -1,0 +1,12 @@
+---
+- name: using file module for setting selinux context
+  hosts: webservers
+  become: true
+  tasks:
+    - name: file module implementing
+      file: 
+        path: /home/rasul/users.txt
+        seuser: _default
+        serole: _default
+        setype: _default
+        selevel: _default

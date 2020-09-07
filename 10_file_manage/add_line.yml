@@ -1,0 +1,10 @@
+---
+- name: add line task
+  hosts: webservers
+  remote_user: root
+  tasks:
+    - name: adding line
+      lineinfile:
+        path: /home/rasul/users.txt
+        line: line has been added by lineinfile module
+        state: present

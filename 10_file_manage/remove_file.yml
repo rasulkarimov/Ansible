@@ -1,0 +1,9 @@
+---
+- name: using file module to remove file
+  hosts: webservers
+  become: true
+  tasks:
+    - name: removing file
+      file: 
+        path: /home/rasul/users.txt
+        state: absent

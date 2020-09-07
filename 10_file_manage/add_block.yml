@@ -1,0 +1,12 @@
+---
+- name: blockinfile module demonstration
+  hosts: webservers
+  become: true
+  tasks:
+    - name: adding block
+      blockinfile:
+        path: /home/rasul/users.txt
+        block: |
+          First line of the block
+          Second line of the block
+        state: present

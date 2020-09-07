@@ -1,0 +1,204 @@
+Sep  7 15:08:33 server1 sshd[12350]: Accepted publickey for rasul from 192.168.200.1 port 43654 ssh2: RSA 0d:46:5b:b3:74:83:1e:02:54:87:a9:ca:74:3b:7f:e2
+Sep  7 15:08:33 server1 sshd[12350]: pam_unix(sshd:session): session opened for user rasul by (uid=0)
+Sep  7 15:08:34 server1 sshd[12353]: subsystem request for sftp by user rasul
+Sep  7 15:08:34 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wucxmjpunlphpafxdinhbaamunamzkzz ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599505714.1-3025-25721229801562/AnsiballZ_setup.py
+Sep  7 15:08:36 server1 sshd[12353]: subsystem request for sftp by user rasul
+Sep  7 15:08:36 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kghhhndezvzpboiamzmtlpsgnbsvbbhi ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599505715.96-3060-79612862241942/AnsiballZ_yum.py
+Sep  7 15:08:37 server1 sshd[12353]: subsystem request for sftp by user rasul
+Sep  7 15:08:37 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mwfkgnnqfieyjccynhckxlsiwjafgqfj ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599505717.23-3060-195465872142988/AnsiballZ_yum.py
+Sep  7 15:08:56 server1 sshd[12353]: subsystem request for sftp by user rasul
+Sep  7 15:08:57 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lmyzfhyjzmuzghwayvdctkgunwdvossx ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599505736.35-3147-129565667792179/AnsiballZ_setup.py
+Sep  7 15:08:58 server1 sshd[12353]: subsystem request for sftp by user rasul
+Sep  7 15:08:58 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lvadyzfwqyswsinijtpqvhnhrvmiuoyr ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599505737.9-3172-76767715780780/AnsiballZ_yum.py
+Sep  7 15:08:59 server1 sshd[12353]: subsystem request for sftp by user rasul
+Sep  7 15:08:59 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wqeemwysvvjxbnwdryjdfpdtflirerao ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599505739.21-3172-32158990170031/AnsiballZ_yum.py
+Sep  7 15:10:00 server1 sshd[12353]: Received disconnect from 192.168.200.1: 11: disconnected by user
+Sep  7 15:10:00 server1 sshd[12350]: pam_unix(sshd:session): session closed for user rasul
+Sep  7 15:10:14 server1 sshd[13236]: Accepted publickey for rasul from 192.168.200.1 port 43658 ssh2: RSA 0d:46:5b:b3:74:83:1e:02:54:87:a9:ca:74:3b:7f:e2
+Sep  7 15:10:14 server1 sshd[13236]: pam_unix(sshd:session): session opened for user rasul by (uid=0)
+Sep  7 15:10:15 server1 sshd[13239]: subsystem request for sftp by user rasul
+Sep  7 15:10:15 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vvndvdlxarehayyvoijenzjeulaygocy ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599505814.97-3414-209312759456773/AnsiballZ_setup.py
+Sep  7 15:10:17 server1 sshd[13239]: subsystem request for sftp by user rasul
+Sep  7 15:10:17 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bueoqoqylcgtsadqvqpuovvizpondedm ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599505816.78-3442-115952781138160/AnsiballZ_yum.py
+Sep  7 15:10:18 server1 sshd[13239]: subsystem request for sftp by user rasul
+Sep  7 15:10:18 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-waulyopzyfldcccapeqwebibwowuevhl ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599505818.02-3442-200546528774125/AnsiballZ_yum.py
+Sep  7 15:11:18 server1 sshd[13239]: Received disconnect from 192.168.200.1: 11: disconnected by user
+Sep  7 15:11:18 server1 sshd[13236]: pam_unix(sshd:session): session closed for user rasul
+Sep  7 15:12:39 server1 sshd[13690]: Accepted publickey for rasul from 192.168.200.1 port 43662 ssh2: RSA 0d:46:5b:b3:74:83:1e:02:54:87:a9:ca:74:3b:7f:e2
+Sep  7 15:12:39 server1 sshd[13690]: pam_unix(sshd:session): session opened for user rasul by (uid=0)
+Sep  7 15:12:40 server1 sshd[13693]: subsystem request for sftp by user rasul
+Sep  7 15:12:40 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-umvhbhdndqgxnceztgzevlufzlykzjey ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599505959.89-3849-2567830737492/AnsiballZ_setup.py
+Sep  7 15:12:41 server1 sshd[13693]: subsystem request for sftp by user rasul
+Sep  7 15:12:42 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rudwarswietqtfukqegctxhsweoyktzm ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599505961.65-3883-62491880500979/AnsiballZ_yum.py
+Sep  7 15:12:43 server1 sshd[13693]: subsystem request for sftp by user rasul
+Sep  7 15:12:43 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qhctxacvxzuuxztparhbqwmsiqulnrrk ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599505963.09-3901-45765095317762/AnsiballZ_yum.py
+Sep  7 15:13:04 server1 sshd[13693]: subsystem request for sftp by user rasul
+Sep  7 15:13:04 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bxprajjvsnstumyrmpoqorqrxloqscnw ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599505983.85-3940-125712005326456/AnsiballZ_setup.py
+Sep  7 15:13:05 server1 sshd[13693]: subsystem request for sftp by user rasul
+Sep  7 15:13:05 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hjdajezpdqpzsocsjexasrkrsxnfoxbo ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599505985.39-3965-34621223991463/AnsiballZ_yum.py
+Sep  7 15:13:06 server1 sshd[13693]: subsystem request for sftp by user rasul
+Sep  7 15:13:06 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-anlpqmupfirdyrpkeyrknzrxwstchurc ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599505986.79-3983-27581941939660/AnsiballZ_yum.py
+Sep  7 15:14:07 server1 sshd[13693]: Received disconnect from 192.168.200.1: 11: disconnected by user
+Sep  7 15:14:07 server1 sshd[13690]: pam_unix(sshd:session): session closed for user rasul
+Sep  7 15:16:39 server1 sshd[14580]: Accepted publickey for rasul from 192.168.200.1 port 43666 ssh2: RSA 0d:46:5b:b3:74:83:1e:02:54:87:a9:ca:74:3b:7f:e2
+Sep  7 15:16:39 server1 sshd[14580]: pam_unix(sshd:session): session opened for user rasul by (uid=0)
+Sep  7 15:16:39 server1 sshd[14584]: subsystem request for sftp by user rasul
+Sep  7 15:16:40 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zbunukfbztgirevbtuludyrmwlhjokfo ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506199.28-4472-61513665813849/AnsiballZ_setup.py
+Sep  7 15:16:41 server1 sshd[14584]: subsystem request for sftp by user rasul
+Sep  7 15:16:41 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ngxkxrllzmrusdvsornezbidvgxurwej ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506201.11-4503-7228199955386/AnsiballZ_yum.py
+Sep  7 15:16:42 server1 sshd[14584]: subsystem request for sftp by user rasul
+Sep  7 15:16:42 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gmzwpujszsgucpzawmoowwyghxskppzs ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506202.57-4523-245447450826100/AnsiballZ_yum.py
+Sep  7 15:17:14 server1 sshd[14584]: subsystem request for sftp by user rasul
+Sep  7 15:17:14 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hnztbqgovkewnhyjwxkwmjckmsjnjoxx ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506233.68-4591-235916444769610/AnsiballZ_setup.py
+Sep  7 15:17:15 server1 sshd[14584]: subsystem request for sftp by user rasul
+Sep  7 15:17:15 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-peopowzywzwoypyubqxiuvpyychxquqq ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506235.15-4620-22515801709116/AnsiballZ_yum.py
+Sep  7 15:18:16 server1 sshd[14584]: Received disconnect from 192.168.200.1: 11: disconnected by user
+Sep  7 15:18:16 server1 sshd[14580]: pam_unix(sshd:session): session closed for user rasul
+Sep  7 15:20:16 server1 sshd[15361]: Accepted publickey for rasul from 192.168.200.1 port 43670 ssh2: RSA 0d:46:5b:b3:74:83:1e:02:54:87:a9:ca:74:3b:7f:e2
+Sep  7 15:20:16 server1 sshd[15361]: pam_unix(sshd:session): session opened for user rasul by (uid=0)
+Sep  7 15:20:17 server1 sshd[15364]: subsystem request for sftp by user rasul
+Sep  7 15:20:17 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hhgqbgwyzwnfjfefzgwelzsclxtlwaqy ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506417.05-4937-206325343127366/AnsiballZ_setup.py
+Sep  7 15:20:19 server1 sshd[15364]: subsystem request for sftp by user rasul
+Sep  7 15:20:19 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-iwcdikxgmyptzlnounhyutvydnxwwywj ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506418.86-4965-182203145956158/AnsiballZ_yum.py
+Sep  7 15:20:20 server1 sshd[15364]: subsystem request for sftp by user rasul
+Sep  7 15:20:20 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tuydtaorzotmbfofsnojpgoilxagsycb ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506420.26-4983-133369708842139/AnsiballZ_yum.py
+Sep  7 15:20:47 server1 sshd[15364]: subsystem request for sftp by user rasul
+Sep  7 15:20:47 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-soccoxwejdxrfwxggrtdxsrrdsiqkzcb ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506446.65-5107-133206061922655/AnsiballZ_setup.py
+Sep  7 15:20:48 server1 sshd[15364]: subsystem request for sftp by user rasul
+Sep  7 15:20:48 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pmcdkgrlteejaxlzjqrgyxlixvklbqbb ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506448.19-5129-100156362025960/AnsiballZ_yum.py
+Sep  7 15:20:49 server1 sshd[15364]: subsystem request for sftp by user rasul
+Sep  7 15:20:49 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hyqfdqtxgyacqepicyxjowaovwiclrxf ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506449.61-5147-223801477116081/AnsiballZ_yum.py
+Sep  7 15:21:50 server1 sshd[15364]: Received disconnect from 192.168.200.1: 11: disconnected by user
+Sep  7 15:21:50 server1 sshd[15361]: pam_unix(sshd:session): session closed for user rasul
+Sep  7 15:23:15 server1 sshd[16241]: Accepted publickey for rasul from 192.168.200.1 port 43674 ssh2: RSA 0d:46:5b:b3:74:83:1e:02:54:87:a9:ca:74:3b:7f:e2
+Sep  7 15:23:15 server1 sshd[16241]: pam_unix(sshd:session): session opened for user rasul by (uid=0)
+Sep  7 15:23:16 server1 sshd[16244]: subsystem request for sftp by user rasul
+Sep  7 15:23:16 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eezjznlaycpkrzfsdhdsphjqxqtfuiip ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506595.91-5333-153492633752386/AnsiballZ_setup.py
+Sep  7 15:23:17 server1 sshd[16244]: subsystem request for sftp by user rasul
+Sep  7 15:23:18 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pvmsomjpncjhthvraqleldgwzaakraux ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506597.72-5363-256642723029695/AnsiballZ_yum.py
+Sep  7 15:23:19 server1 sshd[16244]: subsystem request for sftp by user rasul
+Sep  7 15:23:19 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dvwuztxgklltkxkwhozusdxasylxjtcp ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506599.09-5381-62472781539110/AnsiballZ_systemd.py
+Sep  7 15:23:51 server1 sshd[16244]: subsystem request for sftp by user rasul
+Sep  7 15:23:51 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ldylmqfislntavetysqonpeiccgefplv ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506630.71-5445-201378492964679/AnsiballZ_setup.py
+Sep  7 15:23:52 server1 sshd[16244]: subsystem request for sftp by user rasul
+Sep  7 15:23:52 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xskuvfutzunbcmevfroebvfukayjtzzg ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506632.26-5467-250993251972142/AnsiballZ_yum.py
+Sep  7 15:23:53 server1 sshd[16244]: subsystem request for sftp by user rasul
+Sep  7 15:23:54 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tqougsjwywbqicwouokavptusuvmdgcq ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506633.82-5485-74368258519861/AnsiballZ_yum.py
+Sep  7 15:23:55 server1 sshd[16244]: subsystem request for sftp by user rasul
+Sep  7 15:23:55 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ejvydeasnwoebcjmshvvmkxazghcsxwo ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506634.94-5503-77776109851941/AnsiballZ_systemd.py
+Sep  7 15:24:55 server1 sshd[16244]: Received disconnect from 192.168.200.1: 11: disconnected by user
+Sep  7 15:24:55 server1 sshd[16241]: pam_unix(sshd:session): session closed for user rasul
+Sep  7 15:28:59 server1 sshd[17254]: Accepted publickey for rasul from 192.168.200.1 port 43678 ssh2: RSA 0d:46:5b:b3:74:83:1e:02:54:87:a9:ca:74:3b:7f:e2
+Sep  7 15:28:59 server1 sshd[17254]: pam_unix(sshd:session): session opened for user rasul by (uid=0)
+Sep  7 15:29:00 server1 sshd[17258]: subsystem request for sftp by user rasul
+Sep  7 15:29:00 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-llkrpbyfrsrtxoqqipsvjprrmgqiirft ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506939.54-5948-235361471401068/AnsiballZ_setup.py
+Sep  7 15:29:01 server1 sshd[17258]: subsystem request for sftp by user rasul
+Sep  7 15:29:01 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mxezlobvktainukkedqwbgrnyvaioftt ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506941.22-5980-36793922314488/AnsiballZ_command.py
+Sep  7 15:29:02 server1 sshd[17258]: subsystem request for sftp by user rasul
+Sep  7 15:29:02 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zxnlxsbombxolgtubiwwxixkipmrrtxn ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506942.27-6002-43174894582051/AnsiballZ_yum.py
+Sep  7 15:29:03 server1 sshd[17258]: subsystem request for sftp by user rasul
+Sep  7 15:29:03 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-chimtsjahhulutdfubjgcjpjhgaemjus ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506943.71-6020-3144224760831/AnsiballZ_yum.py
+Sep  7 15:29:05 server1 sshd[17258]: subsystem request for sftp by user rasul
+Sep  7 15:29:05 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ulywordjtpylhpxloyozijkpazakdlgh ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506944.84-6038-223509153217464/AnsiballZ_systemd.py
+Sep  7 15:29:12 server1 sshd[17258]: subsystem request for sftp by user rasul
+Sep  7 15:29:12 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ltweqjlmabehjgixzadbprswdpikmokx ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506952.14-6066-241916676241583/AnsiballZ_setup.py
+Sep  7 15:29:13 server1 sshd[17258]: subsystem request for sftp by user rasul
+Sep  7 15:29:13 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hfffvtxxnjgghshqphxnhdptlzmalczr ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506953.45-6088-2999448886320/AnsiballZ_command.py
+Sep  7 15:29:14 server1 sshd[17258]: subsystem request for sftp by user rasul
+Sep  7 15:29:14 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uzqdcpoianexqtuzxfxcgdypjquwjxop ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506954.49-6110-33830076164358/AnsiballZ_yum.py
+Sep  7 15:29:16 server1 sshd[17258]: subsystem request for sftp by user rasul
+Sep  7 15:29:16 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fxiufsstpdkunydlmseyzjlkdcjoieei ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506956.04-6192-172731246648979/AnsiballZ_yum.py
+Sep  7 15:29:17 server1 sshd[17258]: subsystem request for sftp by user rasul
+Sep  7 15:29:17 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sjobjlscwmgfhwtmrmucwronrqzawyce ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599506957.19-6210-47870427282730/AnsiballZ_systemd.py
+Sep  7 15:30:18 server1 sshd[17258]: Received disconnect from 192.168.200.1: 11: disconnected by user
+Sep  7 15:30:18 server1 sshd[17254]: pam_unix(sshd:session): session closed for user rasul
+Sep  7 15:30:46 server1 sshd[18586]: Accepted publickey for rasul from 192.168.200.1 port 43682 ssh2: RSA 0d:46:5b:b3:74:83:1e:02:54:87:a9:ca:74:3b:7f:e2
+Sep  7 15:30:46 server1 sshd[18586]: pam_unix(sshd:session): session opened for user rasul by (uid=0)
+Sep  7 15:30:47 server1 sshd[18589]: subsystem request for sftp by user rasul
+Sep  7 15:30:47 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dwfscafnrwnmxxvpqmznggvtfhdjwtau ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507046.46-6391-24993046941958/AnsiballZ_setup.py
+Sep  7 15:30:48 server1 sshd[18589]: subsystem request for sftp by user rasul
+Sep  7 15:30:48 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fpsmjvvodewcjwwwkjgzsuhypjgetchl ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507048.0-6421-218707728645447/AnsiballZ_command.py
+Sep  7 15:30:49 server1 sshd[18589]: subsystem request for sftp by user rasul
+Sep  7 15:30:49 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-inhtelihdcfqcflhedrjyxgabzayrkbe ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507049.1-6443-49628860544709/AnsiballZ_yum.py
+Sep  7 15:30:50 server1 sshd[18589]: subsystem request for sftp by user rasul
+Sep  7 15:30:50 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zedyzlfyyrbcyztlpzzgboddmgkupxwb ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507050.67-6461-191624879995147/AnsiballZ_yum.py
+Sep  7 15:30:52 server1 sshd[18589]: subsystem request for sftp by user rasul
+Sep  7 15:30:52 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zavlgjodqhawjznibiumyvtruejjqvjd ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507051.78-6479-86043874893391/AnsiballZ_systemd.py
+Sep  7 15:31:52 server1 sshd[18589]: Received disconnect from 192.168.200.1: 11: disconnected by user
+Sep  7 15:31:52 server1 sshd[18586]: pam_unix(sshd:session): session closed for user rasul
+Sep  7 15:32:45 server1 sshd[19273]: Accepted publickey for rasul from 192.168.200.1 port 43686 ssh2: RSA 0d:46:5b:b3:74:83:1e:02:54:87:a9:ca:74:3b:7f:e2
+Sep  7 15:32:45 server1 sshd[19273]: pam_unix(sshd:session): session opened for user rasul by (uid=0)
+Sep  7 15:32:46 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:32:46 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ffqqbxiewdcbznthilmdivysfrjmeoex ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507166.05-6619-62762652453589/AnsiballZ_setup.py
+Sep  7 15:32:47 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:32:48 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-klydsfvqhukeeifqmnvxmhbsqbbgyxzz ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507167.53-6648-231339054467583/AnsiballZ_command.py
+Sep  7 15:32:48 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:32:49 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lffcvjxyrypoatidsydjgalhrsylqsbe ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507168.52-6670-272051456582742/AnsiballZ_yum.py
+Sep  7 15:32:50 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:32:50 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tlprkdrvejrmhpcyemskrwvdauzhvjov ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507169.94-6688-166345090697054/AnsiballZ_systemd.py
+Sep  7 15:33:08 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:33:08 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xbjuhdtroxajjmnksrksvnvuzjkbcxbw ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507187.63-6755-148436182788985/AnsiballZ_setup.py
+Sep  7 15:33:09 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:33:09 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-onjlvbfpaszriiabnlgfyxdvbjakxhwm ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507189.01-6779-211279348421967/AnsiballZ_command.py
+Sep  7 15:33:10 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:33:10 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-usovjjmyejslwrmwgufbatkxbcnhoqpr ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507190.12-6801-219089163400673/AnsiballZ_yum.py
+Sep  7 15:33:11 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:33:12 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eclgdrkyqxzgmpcakukdmjafetwxeyfh ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507191.48-6820-76103446027338/AnsiballZ_systemd.py
+Sep  7 15:33:25 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:33:25 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-htqobziphtcojwaojwjfmejakzhbgqld ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507204.81-6860-158655035026955/AnsiballZ_setup.py
+Sep  7 15:33:26 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:33:26 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pdgpajgihxiqkneukjpbakjgzbyssffu ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507206.09-6882-50337935254584/AnsiballZ_command.py
+Sep  7 15:33:27 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:33:27 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fwmufqercadrpwyndielksywxxcbdyyy ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507207.14-6904-166786231452957/AnsiballZ_yum.py
+Sep  7 15:33:28 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:33:28 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gwjtnuaarlfwyhjplstpqixwtsulucpl ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507208.67-6922-259191370570374/AnsiballZ_yum.py
+Sep  7 15:33:30 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:33:30 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ranvlmzbmucsgbdgpjvgzvmebxbukmwq ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507209.79-6940-129865120319583/AnsiballZ_systemd.py
+Sep  7 15:33:43 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:33:43 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oyhqeenlnlpsbbddnvhluzzcptbftdtb ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507223.16-6969-27980416428724/AnsiballZ_setup.py
+Sep  7 15:33:44 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:33:44 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dglvfcxresyriejwgmickpijvuwaiuyd ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507224.53-6995-22184854215030/AnsiballZ_command.py
+Sep  7 15:33:45 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:33:46 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hodqjjheaylrieadiuhzsphefqnvlzyk ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507225.65-7019-82981196623683/AnsiballZ_yum.py
+Sep  7 15:33:47 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:33:47 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ipikasaokgtrraangmomybllsvdylxoq ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507227.01-7037-139998669592307/AnsiballZ_yum.py
+Sep  7 15:33:48 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:33:48 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hgvoftbggovioxulefjhhnmvrwnbvyqi ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507228.15-7056-69445426030543/AnsiballZ_systemd.py
+Sep  7 15:34:00 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:34:00 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fnjkeayoilpndnvbycoywtjevizbayhj ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507239.62-7104-246316085064804/AnsiballZ_setup.py
+Sep  7 15:34:01 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:34:01 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-beeshpgjcnbuhoaesxklvycivinaftzs ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507240.98-7129-187196616815008/AnsiballZ_command.py
+Sep  7 15:34:02 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:34:02 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gtetlcbsnsjcndetjoemzaybpwbecqkl ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507242.0-7151-256922500530367/AnsiballZ_yum.py
+Sep  7 15:34:03 server1 sshd[19277]: subsystem request for sftp by user rasul
+Sep  7 15:34:04 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mgtvwovhsahetmefhadzycslbkofvczo ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507243.45-7169-72646379580999/AnsiballZ_systemd.py
+Sep  7 15:35:04 server1 sshd[19277]: Received disconnect from 192.168.200.1: 11: disconnected by user
+Sep  7 15:35:04 server1 sshd[19273]: pam_unix(sshd:session): session closed for user rasul
+Sep  7 15:35:10 server1 sshd[22129]: Accepted publickey for rasul from 192.168.200.1 port 43690 ssh2: RSA 0d:46:5b:b3:74:83:1e:02:54:87:a9:ca:74:3b:7f:e2
+Sep  7 15:35:10 server1 sshd[22129]: pam_unix(sshd:session): session opened for user rasul by (uid=0)
+Sep  7 15:35:11 server1 sshd[22132]: subsystem request for sftp by user rasul
+Sep  7 15:35:11 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hkhytebeteuxowfxelyxssaovllqczis ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507310.72-7232-255139264225255/AnsiballZ_setup.py
+Sep  7 15:35:12 server1 sshd[22132]: subsystem request for sftp by user rasul
+Sep  7 15:35:12 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nfwaurvmsdwlzvnkiseycbwvnqjrytky ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507312.32-7262-156994985436194/AnsiballZ_command.py
+Sep  7 15:35:13 server1 sshd[22132]: subsystem request for sftp by user rasul
+Sep  7 15:35:13 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eyekgoexrygnujtmxiuakkbumhxwdbwh ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507313.28-7284-115428277826403/AnsiballZ_yum.py
+Sep  7 15:35:14 server1 sshd[22132]: subsystem request for sftp by user rasul
+Sep  7 15:35:15 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ntewqctwmpqrtdsmnfnfvggagnucmwsn ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507314.89-7304-112860928472687/AnsiballZ_yum.py
+Sep  7 15:35:16 server1 sshd[22132]: subsystem request for sftp by user rasul
+Sep  7 15:35:16 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eklextfckmvsszvfndyzwjykwoeixald ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599507316.08-7322-64441821668091/AnsiballZ_systemd.py
+Sep  7 15:36:17 server1 sshd[22132]: Received disconnect from 192.168.200.1: 11: disconnected by user
+Sep  7 15:36:17 server1 sshd[22129]: pam_unix(sshd:session): session closed for user rasul
+Sep  7 15:55:08 server1 sshd[23037]: Accepted publickey for rasul from 192.168.200.1 port 43718 ssh2: RSA 0d:46:5b:b3:74:83:1e:02:54:87:a9:ca:74:3b:7f:e2
+Sep  7 15:55:08 server1 sshd[23037]: pam_unix(sshd:session): session opened for user rasul by (uid=0)
+Sep  7 15:55:09 server1 sshd[23041]: subsystem request for sftp by user rasul
+Sep  7 15:55:09 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pmkjujotolvdenbmastjkaithqufboux ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599508508.53-9075-154455878890504/AnsiballZ_setup.py
+Sep  7 15:55:10 server1 sshd[23041]: subsystem request for sftp by user rasul
+Sep  7 15:55:10 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sewirdzwriczdtuvdrklkjtoptdmxyhh ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599508510.07-9107-17426891476416/AnsiballZ_slurp.py
+Sep  7 15:56:10 server1 sshd[23041]: Received disconnect from 192.168.200.1: 11: disconnected by user
+Sep  7 15:56:10 server1 sshd[23037]: pam_unix(sshd:session): session closed for user rasul
+Sep  7 15:56:57 server1 sshd[23376]: Accepted publickey for rasul from 192.168.200.1 port 43722 ssh2: RSA 0d:46:5b:b3:74:83:1e:02:54:87:a9:ca:74:3b:7f:e2
+Sep  7 15:56:57 server1 sshd[23376]: pam_unix(sshd:session): session opened for user rasul by (uid=0)
+Sep  7 15:56:58 server1 sshd[23380]: subsystem request for sftp by user rasul
+Sep  7 15:56:58 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pgyjaqyltahtfoomehfsnqgcovevkfox ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599508617.99-9296-104604461993794/AnsiballZ_setup.py
+Sep  7 15:56:59 server1 sshd[23380]: subsystem request for sftp by user rasul
+Sep  7 15:56:59 server1 sudo: rasul : TTY=pts/0 ; PWD=/home/rasul ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ftyaofwlyratsnbxmlckxmmuthrgcqou ; /usr/bin/python /home/rasul/.ansible/tmp/ansible-tmp-1599508619.45-9325-89638516106496/AnsiballZ_slurp.py

@@ -1,0 +1,14 @@
+---
+- name: copy module
+  hosts: webservers
+  become: true
+  tasks:
+    - name: Copy a file to managed hosts and set attributes
+      copy:
+        src: files/users.txt
+        dest: /home/rasul/users.txt
+        owner: rasul
+        group: rasul
+        mode: u+rw,g-wx,o-rwx
+        setype: samba_share_t
+
