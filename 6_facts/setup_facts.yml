@@ -1,0 +1,18 @@
+---
+- name: install remote facts
+  hosts: webservers
+  become: true
+  vars:
+    remote_dir: /etc/ansible/facts.d
+    facts_file: custom.fact
+  tasks:
+    - name: create the rem dir
+      file:
+        state: directory
+        recurse: yes
+        path: "{{ remote_dir }}"
+
+    - name: install facts
+      copy:
+        src: "{{ facts_file }}"
+        dest: "{{ remote_dir }}"

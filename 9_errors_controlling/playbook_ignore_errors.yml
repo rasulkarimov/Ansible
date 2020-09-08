@@ -1,0 +1,21 @@
+---
+- name: task failure ex
+  hosts: webservers
+  become: true
+  vars:
+    web_package: http
+    db_package: mariadb-server
+    db_service: mariadb
+
+  tasks:
+    - name: set up a web server
+      yum:
+        name: "{{ web_package }}"
+        state: latest
+      ignore_errors: yes
+
+    - name: install db packages
+      yum:
+        name: "{{ db_package }}"
+        state: latest
+

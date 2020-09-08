@@ -1,0 +1,21 @@
+---
+- name: mariadb is running
+  hosts: webservers
+  vars:
+    mariadb_packages:
+      - mariadb-server
+      - python-ldap
+  become: true
+  tasks:
+    - name: install Maridb
+      yum:
+        name: "{{ item }}"
+        state: latest
+      loop: "{{ mariadb_packages }}"
+      when: ansible_distribution == "RedHat"
+
+    - name: mariadb running
+      service:
+        name: mariadb
+        state: started
+        enabled: true

@@ -1,0 +1,5 @@
+[global]
+remote_user = rasul
+become = true
+
+

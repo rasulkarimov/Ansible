@@ -1,0 +1,39 @@
+---
+- name: task failure ex
+  hosts: webservers
+  become: true
+  vars:
+    web_package: httpd
+    db_package: mariadb-server
+    db_service: mariadb
+
+  tasks:
+    - name: check local tim
+      command: date
+      register: command_result
+      changed_when: false
+
+    - name: print local time
+      debug:
+        var: command_result.stdout
+
+    - name: attemp to set up a web server
+      block:
+        - name: install httpd packages
+          yum:
+            name: "{{ web_package }}"
+            state: latest
+          failed_when: web_package == "httpd"
+
+      rescue:
+        - name: install db packages
+          yum:
+            name: "{{ db_package }}"
+            state: latest
+
+      always:
+        - name: start db service
+          service:
+            name: "{{ db_service }}"
+            state: started
+            enabled: true  

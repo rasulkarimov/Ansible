@@ -1,0 +1,17 @@
+---
+- name: install httpd and start it
+  hosts: webservers
+  become: true
+  tasks:
+    - name: inst packeges
+      yum:
+        name: "{{ ansible_facts['ansible_local']['custom']['general']['package'] }}"
+        state: latest
+
+    - name: start service
+      service:
+        name: "{{ ansible_facts['ansible_local']['custom']['general']['service'] }}"
+        state: "{{ ansible_facts['ansible_local']['custom']['general']['state'] }}"
+        enabled: true
+
+
