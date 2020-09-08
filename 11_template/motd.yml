@@ -2,6 +2,7 @@
 - name: configure SOE
   hosts: 'webservers'
   become: true
+  serial: 1
   vars:
     - system_owner: rasul@example.com
   tasks:
