@@ -1,6 +1,7 @@
 ---
 - name: Configure web server
   hosts: webservers
+  serial: 1
   tasks:
     - name: Include the environment task file and set the variables
       include_tasks: tasks/env.yml

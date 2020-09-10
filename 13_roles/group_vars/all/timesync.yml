@@ -1,0 +1,5 @@
+timesync_ntp_provider: chrony
+
+timesync_ntp_servers:
+  - hostname: 192.168.200.200
+    iburst: yes

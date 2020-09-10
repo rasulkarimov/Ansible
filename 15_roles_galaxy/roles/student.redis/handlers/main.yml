@@ -1,0 +1,8 @@
+---
+# handlers file for inmotion.redis
+
+- name: restart redis
+  systemd:
+    daemon_reload: yes
+    name: '{{ redis_daemon }}'
+    state: restarted

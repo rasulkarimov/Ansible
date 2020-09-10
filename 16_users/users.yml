@@ -1,0 +1,42 @@
+---
+- name: create multiple local users
+  hosts: webservers
+  become: true
+  vars_files:
+    - vars/users_vars.yml
+  tasks:
+    - name: adding group
+      group:
+        name: webadmin
+        state: present
+    - name: adding users
+      user:
+        name: "{{ item.username }}"
+        groups: "{{ item.groups }}"
+        shell: "/usr/bin/bash"
+      loop: "{{ users }}"
+
+    - name: setting authorized keys 
+      authorized_key:
+        user: "{{ item.username }}"
+        key: "{{ lookup('file', 'files/' + item.username + '.pub') }}"
+      loop: "{{ users }}"
+
+
+    - name: modify sudo config file
+      lineinfile:
+        line: "%webadmin ALL=(ALL) NOPASSWD: ALL"
+        dest: /etc/sudoers
+
+    - name: ensure that root not permittet remote login
+      lineinfile:
+        dest: /etc/ssh/sshd_config
+        regexp: "^PermitRootLogin"
+        line: "#PermitRootLogin no"
+      notify: Restart sshd
+
+  handlers:
+  - name: Restart sshd
+    service:
+      name: sshd
+      state: restarted

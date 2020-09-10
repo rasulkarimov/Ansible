@@ -1,0 +1,11 @@
+#Ansible managed
+
+<VirtualHost *:80>
+ServerName {{ ansible_fqdn }}
+DocumentRoot /var/www/vhosts/{{ ansible_hostname }}/
+</VirtualHost>
+
+<Directory /var/www/vhosts/{{ ansible_hostname }}/>
+Require all granted
+Options +Indexes +FollowSymlinks +Includes
+</Directory>

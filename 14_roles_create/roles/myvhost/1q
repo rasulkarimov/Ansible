@@ -1,0 +1,20 @@
+---
+- name: use myvhost role playbook
+  hostname: webservers
+  pre_tasks:
+    - name: pre_tasks message
+      debug:
+        msg: 'Ensure web server configuration.'
+
+  roles:
+    - myvhost
+
+  post_tasks:
+    - name: HTML content is instolled
+      copy:
+        src: files/html
+        dest: "/var/www/vhosts/{{ ansible_hostname }}"
+
+    - name: post_tasks message
+      debug:
+        msg: 'Web server is configured.'
