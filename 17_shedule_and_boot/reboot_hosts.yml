@@ -1,0 +1,7 @@
+---
+- name: reboting hosts
+  hosts: webservers
+  become: true
+  tasks:
+    - name: hosts are rebooted
+      reboot:

@@ -1,0 +1,21 @@
+---
+
+partitions:
+  - number: 4
+    start: 11604MiB
+    end: 11704MiB
+
+volume_groups:
+  - name: apache-vg
+    devices: /dev/vda4
+
+logical_volumes:
+  - name: content-lv
+    size: 32M
+    vgroup: apache-vg
+    mount_path: /var/www
+
+  - name: logs-lv
+    size: 32M
+    vgroup: apache-vg
+    mount_path: /var/log/httpd

@@ -1,0 +1,54 @@
+---
+- name: ensure storage configuration
+  hosts: 192.168.200.8
+  become: true
+  vars_files:
+    - storage_vars.yml
+  tasks:
+    - name: correct partitions exist on /dev/vda
+      parted:
+        device: /dev/vda
+        state: present
+        number: "{{ item.number }}"
+        part_end: "{{ item.end }}" 
+        part_start: "{{ item.start }}"
+        flags: [ lvm ]
+      loop: "{{ partitions }}"
+
+    - name: ensure volume groups exist
+      lvg:
+        vg: "{{ item.name }}"
+        pvs: "{{ item.devices }}"
+      loop: "{{ volume_groups }}"
+
+    - name: ensure lv exist
+      lvol: 
+        vg: "{{ item.vgroup }}"
+        lv: "{{ item.name }}"
+        size: "{{ item.size }}"
+      loop: "{{ logical_volumes }}"
+      when: item.name not in ansible_lvm["lvs"]
+        
+    - name: ensure XFS filesystem exists on each LV
+      filesystem:
+        dev: "/dev/{{ item.vgroup }}/{{ item.name }}" 
+        fstype: xfs
+      loop: "{{ logical_volumes }}"
+
+    - name: ensure correct capacity for each LV
+      lvol:
+        vg: "{{ item.vgroup }}"
+        lv: "{{ item.name }}"
+        size: "{{ item.size }}"
+        resizefs: yes
+        force: yes
+      loop: "{{ logical_volumes }}"
+      
+    - name: each logical volume is mounted
+      mount:
+        path: "{{  item.mount_path }}"
+        src: "/dev/{{ item.vgroup }}/{{ item.name }}"
+        fstype: xfs
+        opts: noatime
+        state: mounted
+      loop: "{{ logical_volumes }}"
