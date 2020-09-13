@@ -1,0 +1,6 @@
+---
+- name: setting network
+  hosts: 192.168.200.7
+  become: true
+  roles:
+    - rhel-system-roles.network
